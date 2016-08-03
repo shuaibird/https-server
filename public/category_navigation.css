@@ -1,0 +1,15 @@
+.content-sidebar {
+  float: left;
+}
+
+.content-main {
+  float: right;
+}
+
+.category-navigation {
+  border: 1px solid #e2eaec;
+  line-height: 1.5;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}

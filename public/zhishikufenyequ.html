@@ -1,0 +1,26 @@
+<!-- 知识库分页区使用范例 -->
+
+<!-- 需要引入的文件，记得更换CDN链接 -->
+<!-- 底下模版也有修改，需覆盖 -->
+
+<link rel="stylesheet" href="https://172.16.11.69:8080/category_navigation.css?v=2">
+<script src="https://172.16.11.69:8080/category_navigation.js?v=2"></script>
+<main>
+  <header class="main-header">
+        <div class="wrap">
+            {{breadcrumbs}}
+            {{search_small}}
+        </div>
+  </header>
+    <section class="content">
+        <div class="wrap clearfix">
+            <section class="content-sidebar">
+            </section>
+            <section class="content-main">
+                <h2>{{category_name}}</h2>
+                {{category_description}}
+                {{section_tree}}
+            </section>
+        </div>
+    </section>
+</main>
