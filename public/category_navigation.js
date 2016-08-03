@@ -1,5 +1,7 @@
 +function($) {
 
+  // 修改说明：只修改dataModel内容，heading为一级菜单，section为对应的二级菜单，修改为相对应的title和url即可
+
   var dataModel = [
     {
       heading: '平台概述',
@@ -53,7 +55,6 @@
   ]
 
 
-
   var template = '<div class="category-navigation"><ul>'
 
   dataModel.forEach(function(data) {
@@ -96,27 +97,3 @@
 
   })
 }(jQuery)
-
-
-
-
-// template for reference.
-
-// <div class="category-navigation">
-//   <ul>
-//     <li>
-//       <div class="category-navigation-heading">平台概述</div>
-//       <ul class="category-navigation-section">
-//         <li><a href="#">概述</a></li>
-//         <li><a href="#">GoKit</a></li>
-//       </ul>
-//     </li>
-//     <li>
-//       <div class="category-navigation-heading">快速入门</div>
-//       <ul class="category-navigation-section">
-//         <li><a href="#">概述</a></li>
-//         <li><a href="#">云端管理</a></li>
-//       </ul>
-//     </li>
-//   </ul>
-// </div>
