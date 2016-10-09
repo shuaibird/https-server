@@ -1,5 +1,5 @@
 {
-  "name": "https server",
+  "name": "https-server",
   "version": "1.0.0",
   "description": "https server",
   "main": "index.js",
